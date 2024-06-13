@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(41, 38, 38);
+}
+
+
+#chat_div{
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    border: 2px solid white;
+    overflow-y: scroll;
+}
+
+
+
+
+.chat{
+    width: 45%;
+    background-color: white;
+    padding: 2px 2px 2px 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    clear: both;
+}
+
+
+.receiver{
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    
+}
+
+.sender{
+   float: right;
+   margin-right: 10px;
+   margin-top: 5px;
+    
+}
+
+#typechat{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 90%;
+    height: 60px;
+    background-color: aqua;
+    resize: none;
+   
+}
+
+button{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 10%;
+    height: 60px;
+}
+
+#typehere{
+    position: absolute;
+    width: 50%;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%);
+}
